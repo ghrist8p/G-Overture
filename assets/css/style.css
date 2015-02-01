@@ -1,0 +1,51 @@
+@font-face
+{
+    font-family: White Rabbit;
+    src: url('assets/font/whitrabt.ttf');
+}
+
+*
+{
+    font-family: White Rabbit;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+body
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 6px;
+    background: #FFFFFF;
+    
+}
+
+#navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    background: #ddd;
+}
+
+#navbar a
+{
+    display: block;
+}
+
+#content
+{
+    clear: both;
+}
+
+#login
+{
+    float: right;
+}
