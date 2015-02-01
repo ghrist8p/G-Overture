@@ -508,6 +508,17 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+// the menu basics (text navbar)
+$config['menu_choices'] = array(
+    'menudata' => array(
+        array('name' => 'Home', 'link' => '/'),
+        array('name' => 'Projects', 'link' => '/project'),
+        array('name' => 'Messages', 'link' => '/messages'),
+        array('name' => 'Meetings', 'link' => '/meetings'),
+        array('name' => 'Blog', 'link' => '/blog')
+        )
+    );
+
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */

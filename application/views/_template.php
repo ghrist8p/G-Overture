@@ -31,29 +31,7 @@
                  src="assets/img/banner.png"
                  alt="Welcome" />
                  
-            <div id="navbar">
-                <ul>
-                    <li><a href="/">
-                        Home
-                    </a></li>
-                    
-                    <li><a href="/projects">
-                        Projects
-                    </a></li>
-                    
-                    <li><a href="/messages">
-                        Messages
-                    </a></li>
-                    
-                    <li><a href="/meetings">
-                        Meetings
-                    </a></li>
-                    
-                    <li><a href="/blog">
-                        Blog
-                    </a></li>
-                </ul>
-            </div>
+            {menubar}
         </div>
         <div id="content">
             {content}
