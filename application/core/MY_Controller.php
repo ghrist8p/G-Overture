@@ -15,6 +15,7 @@ class Application extends CI_Controller {
         $this->data = array();
         $this->data['title'] = 'Georgi Hristov';
         $this->data['pagebody'] = 'home';
+        $this->data['additionalJavaScript'] = '/assets/js/null.js';
         $this->load->library('parser');
     }
 

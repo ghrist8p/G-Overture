@@ -5,11 +5,14 @@
         
         <link rel="stylesheet" 
               type="text/css" 
-              href="assets/css/style.css" />
+              href="/assets/css/style.css" />
               
         <link rel="icon" 
               type="image/png"
-              href="assets/img/fav.png" />
+              href="/assets/img/fav.png" />
+        
+        <script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="{additionalJavaScript}"></script>
               
         <title>{title}</title>
     </head>
@@ -20,7 +23,7 @@
             </div>
             
             <img id="banner"
-                 src="assets/img/banner.png"
+                 src="/assets/img/banner.png"
                  alt="Welcome" />
                  
             {menubar}
