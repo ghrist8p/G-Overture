@@ -512,9 +512,9 @@ $config['proxy_ips'] = '';
 $config['menu_choices'] = array(
     'menudata' => array(
         array('name' => 'Home', 'link' => '/'),
-        array('name' => 'Projects', 'link' => '/project'),
-        array('name' => 'Messages', 'link' => '/messages'),
-        array('name' => 'Meetings', 'link' => '/meetings'),
+        array('name' => 'Projects', 'link' => '/Projects'),
+        array('name' => 'Messages', 'link' => '/Messages'),
+        array('name' => 'Meetings', 'link' => '/Meetings'),
         array('name' => 'Blog', 'link' => '/blog')
         )
     );
