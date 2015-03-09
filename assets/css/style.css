@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: White Rabbit;
-    src: url('assets/font/whitrabt.ttf');
+    src: url('/assets/font/whitrabt.ttf');
 }
 
 *
@@ -108,9 +108,66 @@ body
 hr
 {
     display: block;
-    color: black;
-    width: 100%;
+    width: 90%;
     border: 0;
     height: 1px;
-    background: #333;
+    background: black;
+}
+
+hr.verticalRule
+{
+    border: 0;
+    width: 1px;
+    height: 90%;
+    background: black;
+}
+
+.messagesWrapper
+{
+    width: 100%;
+    display: table;
+}
+
+.messagesWrapper > div
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#conversations
+{
+    width: 80%;
+}
+
+#notes
+{
+    width: 20%;
+}
+
+.note
+{
+    padding: 8px 0px;
+}
+
+.topic
+{
+    text-align: center;
+}
+
+.incoming
+{
+    text-align: left;
+}
+
+.outgoing
+{
+    text-align: right;
+}
+
+.messages
+{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
