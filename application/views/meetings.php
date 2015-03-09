@@ -1,8 +1,14 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<div id="meetings">
+    <hr/>
+    {meetings}
+        <div class="meeting">
+            <div class="meetingDetails">
+                <p>Meeting with {personMet} <br/> {dateMeeting} @ {meetingLoc}</p>
+            </div>
+            <div class="meetingStatus">
+                <img  class="status" src="assets/img/{status}.svg" alt="{status}"/>
+            </div>
+        </div>
+        <hr/>
+    {/meetings}
+</div>

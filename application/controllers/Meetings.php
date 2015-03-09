@@ -10,6 +10,7 @@ class Meetings extends Application {
     
     function __construct() {
         parent::__construct();
+        $this->load->model('meetings_model');
     }
     
     /**
@@ -19,6 +20,9 @@ class Meetings extends Application {
     {
         $this->data['title'] = 'Meetings';
         $this->data['pagebody'] = 'meetings';
+        
+        $this->data['meetings'] = $this->meetings_model->all();
+        
         $this->render();
     }
 }
